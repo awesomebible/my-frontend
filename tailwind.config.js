@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: theme => ({
+        'four-oh-four': "url('/images/404.jpg')"
+       })
     },
   },
   plugins: [
