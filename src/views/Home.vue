@@ -106,7 +106,7 @@
                 <h4 class="text-xl font-medium text-gray-700" id="">Unabhängig</h4>
                 <p class="text-base text-center text-gray-500" id="">
                     my.awesomeBible gehört keiner großen Firma, und finanziert sich komplett von selbst.
-                    Wir müssen nicht deine Daten verkaufen um zu überleben, wir müssen uns nicht anpassen.
+                    Wir müssen uns nicht anpassen, wir können auf unsere Community hören.
                     Wir können unsere Vision ausleben.
                 </p>
             </div>
@@ -181,7 +181,9 @@
         <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Noch mehr Fragen?</h3>
         <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Schreib uns! Wir sind per E-Mail erreichbar: 
             <a href="mailto:hi@awesomebible.de" class="hover:text-indigo-600">hi@awesomebible.de</a> oder via <a href="https://discord.awesomebible.de" class="hover:text-indigo-600">Discord</a>, 
-            wenn du einer von den Cool-Kids bist. 😉</p>
+            wenn du einer von den Cool-Kids bist. 😉 <br>
+            Wir antworten dir gerne!
+            </p>
     </div>
     </div>
 </section>  
