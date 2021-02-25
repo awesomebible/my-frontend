@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-7xl">
         <nav class="flex items-center w-full h-24" x-data="{ showMenu: false }">
             <div class="relative flex flex-wrap items-center justify-between w-full h-24 mx-auto font-medium md:justify-center">
-                <a href="#_" class="w-1/4 py-4 pl-6 pr-4 md:pl-4 md:py-0">
+                <a href="/" class="w-1/4 py-4 pl-6 pr-4 md:pl-4 md:py-0">
                     <span class="text-xl font-black leading-none text-white select-none logo">my.awesomeBible<span class="text-pink-500">.</span></span>
                 </a>
                 <div class="fixed top-0 left-0 z-40 items-center hidden w-full h-full p-3 text-xl bg-gray-900 bg-opacity-50 md:text-sm lg:text-base md:w-3/4 md:bg-transparent md:p-0 md:relative md:flex" :class="{'flex': showMenu, 'hidden': !showMenu }">
