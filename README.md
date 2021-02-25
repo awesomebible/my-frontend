@@ -2,9 +2,10 @@
 
 Das my.awesomeBible ist in [Vue](https://vuejs.org) geschrieben (well, technically JavaScript) und nutzt [TailwindCSS](https://tailwindcss.com) fürs Styling.
 
-## Issues die weder Front- oder Backend betreffen bitte in [awesomebible/my-united](https://github.com/awesomebible/my-united) öffnen.
+![Homepage Screenshot](https://user-images.githubusercontent.com/42138517/109193563-c9d75980-7798-11eb-8528-7bc7505a6847.png)
 
-### Getting Started 🚀
+## Mitmachen! 🦄
+### Entwicklung: Setup 🚀
 
 npm:
 ```sh
