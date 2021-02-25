@@ -154,7 +154,7 @@
             class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Wo liegen meine Daten?</h3>
             <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Deine Daten liegen in Deutschland, dass ist uns wichtig, weil Deutschland starke Datenschutz-Gesetze hat.
-                Um noch ein Stück genauer zu werden: Deine Daten liegen auf einem Server der <a href="https://manitu.de" class="hover:text-indigo-600">manitu GmbH</a>, in <a href="https://goo.gl/maps/jxvMtGvnDMCmb3a78" class="hover:text-indigo-600">St. Wendel</a>.
+                Um noch ein Stück genauer zu werden: Deine Daten liegen auf einem Server der <a href="https://manitu.de" class="hover:text-indigo-600">manitu GmbH</a>, in <a href="https://g.page/manitu_de?share" class="hover:text-indigo-600">St. Wendel</a>.
             </p>
         </div>
         <div
