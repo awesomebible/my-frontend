@@ -206,25 +206,25 @@
                 </div>
                 <p class="mt-6 mb-5 text-base leading-normal text-left text-gray-900 border-0 border-gray-200" id="">Für alle, die my.awesomeBible ausprobieren wollen, oder die jenigen mit Käse im Geldbeutel und Ratten im Haus.</p>
                 <ul class="flex-1 p-0 mt-4 leading-7 text-gray-900 border-0 border-gray-200">
-                    <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid" id="">
+                    <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid" id="">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                         alle Features
                     </li>
-                    <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid" id="">
+                    <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid" id="">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                         ∞ viele Notizen
                     </li>
-                    <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
+                    <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                         ∞ viele Markierungen
                     </li>
-                    <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
+                    <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
@@ -237,7 +237,7 @@
                 </a>
             </div>
             <!-- Price 3 -->
-            <div class="box-border flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-md sm:my-0 sm:p-6 md:my-8 md:p-8">
+            <div class="box-border flex flex-col items-center max-w-md p-4 mx-auto my-0 border-4 border-pink-600 border-solid rounded-md sm:p-6 md:px-8 md:py-16">
                 <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl" id="">Plus</h3>
                 <div class="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p class="box-border m-0 text-6xl font-semibold leading-none border-solid" id="">€3</p>
@@ -272,7 +272,7 @@
                         Du hilfst uns, my.awesomeBible zu finanzieren! 🥰
                     </li>
                 </ul>
-                <button class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-blue-600 no-underline bg-transparent border border-blue-600 rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
+                <button class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-pink-600 border rounded cursor-pointer hover:bg-pink-700 hover:border-pink-700 hover:text-white focus-within:bg-pink-700 focus-within:border-pink-700 focus-within:text-white sm:text-base md:text-lg">
                     Plus kaufen
                 </button>
             </div>
