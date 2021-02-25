@@ -68,7 +68,7 @@
                     <h4 class="w-full text-3xl font-bold">Kontakt</h4>
                     <p class="text-lg text-gray-500"></p>
                     <div class="relative w-full mt-10 space-y-8">
-                        <form action="/kontakt/erfolg" method="post" data-netlify="true" name="kontakt">
+                        <form action="/kontakt/erfolg/" method="post" data-netlify="true" name="kontakt">
                         <div class="relative">
                             <label class="font-medium text-gray-900">Dein Name:</label>
                             <input type="text" name="name" class="block w-full px-4 py-4 mt-2 text-xl placeholder-gray-400 bg-gray-200 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50" placeholder="Wie dich deine Mutter nennt." />
