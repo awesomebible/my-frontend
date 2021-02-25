@@ -1,5 +1,8 @@
 <template>
     <section class="w-full px-6 mb-12 antialiased bg-white select-none">
+    <form name="kontakt" method="post" data-netlify="true" data-netlify-honeypod="bot-field">
+        <input type="hidden" name="form-name" value="kontakt" />
+     </form>
     <div class="mx-auto max-w-7xl">
         <nav class="relative z-50 h-24" x-data="{ showMenu: false }">
             <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto font-medium border-b border-gray-200 lg:justify-center sm:px-4 md:px-2">
