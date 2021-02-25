@@ -231,9 +231,10 @@
                         alle Bibelübersetzungen
                     </li>
                 </ul>
-                <button class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
+                <a class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg"
+                href="/#get-started">
                     Los geht's!
-                </button>
+                </a>
             </div>
             <!-- Price 3 -->
             <div class="box-border flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-md sm:my-0 sm:p-6 md:my-8 md:p-8">
@@ -246,7 +247,7 @@
                 </div>
                 <p class="mt-6 mb-5 text-base leading-normal text-left text-gray-900 border-0 border-gray-200" id="">Für alle, die ihr Kleingeld nicht mehr brauchen.</p>
                 <ul class="flex-1 p-0 mt-4 leading-7 text-gray-900 border-0 border-gray-200">
-                    <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
+                    <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" class=""></path>
                         </svg>
@@ -278,7 +279,7 @@
         </div>
     </div>
 </section>
-<section class="w-full px-8 py-16 bg-gray-100 xl:px-8">
+<section class="w-full px-8 py-16 bg-gray-100 xl:px-8" id="get-started">
     <div class="max-w-5xl mx-auto">
         <div class="flex flex-col items-center md:flex-row">
 
@@ -287,7 +288,7 @@
                 <h2 class="text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl" id="">Fang jetzt dein Abenteuer mit der Bibel an!</h2>
                 <p class="text-xl text-gray-600 md:pr-16" id="">Wir wünschen dir einen schönen Aufenthalt! 🥰</p>
             </div>
-        <form class="w-full mt-16 md:mt-0 md:w-2/5" method="post" action="https://api.awesomebible.de/api/registerUser.php">
+        <form class="w-full mt-16 md:mt-0 md:w-2/5" method="post" action="https://api.awesomebible.de/api/auth.php">
             <div>
                 <div class="relative z-10 h-auto p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7" id="">
                     <h3 class="mb-6 text-2xl font-medium text-center" id="">Öffne das Buch...</h3>
