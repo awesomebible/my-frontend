@@ -237,7 +237,7 @@
                 </a>
             </div>
             <!-- Price 3 -->
-            <div class="box-border flex flex-col items-center max-w-md p-4 mx-auto my-0 border-4 border-pink-600 border-solid rounded-md sm:p-6 md:px-8 md:py-16">
+            <div class="box-border flex flex-col items-center max-w-md p-4 mx-auto my-0 border-4 border-indigo-600 border-solid rounded-md sm:p-6 md:px-8 md:py-16">
                 <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl" id="">Plus</h3>
                 <div class="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p class="box-border m-0 text-6xl font-semibold leading-none border-solid" id="">€3</p>
@@ -272,7 +272,7 @@
                         Du hilfst uns, my.awesomeBible zu finanzieren! 🥰
                     </li>
                 </ul>
-                <button class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-pink-600 border rounded cursor-pointer hover:bg-pink-700 hover:border-pink-700 hover:text-white focus-within:bg-pink-700 focus-within:border-pink-700 focus-within:text-white sm:text-base md:text-lg">
+                <button class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-indigo-600 border rounded cursor-pointer hover:bg-indigo-700 hover:border-indigo-700 hover:text-white focus-within:bg-indigo-700 focus-within:border-pink-700 focus-within:text-white sm:text-base md:text-lg">
                     Plus kaufen
                 </button>
             </div>
