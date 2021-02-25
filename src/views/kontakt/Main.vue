@@ -1,8 +1,5 @@
 <template>
     <section class="w-full px-6 mb-12 antialiased bg-white select-none">
-    <form name="kontakt" method="post" data-netlify="true" data-netlify-honeypod="bot-field">
-        <input type="hidden" name="form-name" value="kontakt" />
-     </form>
     <div class="mx-auto max-w-7xl">
         <nav class="relative z-50 h-24" x-data="{ showMenu: false }">
             <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto font-medium border-b border-gray-200 lg:justify-center sm:px-4 md:px-2">
@@ -71,32 +68,16 @@
                     <h4 class="w-full text-3xl font-bold">Kontakt</h4>
                     <p class="text-lg text-gray-500"></p>
                     <div class="relative w-full mt-10 space-y-8">
-                        <form action="/kontakt/erfolg/" method="post" data-netlify="true" name="kontakt">
-                        <div class="relative">
-                            <label class="font-medium text-gray-900">Dein Name:</label>
-                            <input type="text" name="name" class="block w-full px-4 py-4 mt-2 text-xl placeholder-gray-400 bg-gray-200 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50" placeholder="Wie dich deine Mutter nennt." />
-                        </div>
-                        <div class="relative">
-                            <label class="font-medium text-gray-900">Deine E-Mail:</label>
-                            <input required type="text" name="email" class="block w-full px-4 py-4 mt-2 text-xl placeholder-gray-400 bg-gray-200 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50" placeholder="Deine beste E-Mailadresse" />
-                        </div>
-                        <div class="relative">
-                            <label class="font-medium text-gray-900">Deine Nachricht:</label>
-                            <input required type="text" name="nachricht" class="block w-full px-4 py-4 mt-2 text-xl placeholder-gray-400 bg-gray-200 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50" placeholder="Deine Nachricht..." />
-                        </div>
-                        <div class="relative">
-                            <label class="font-medium text-gray-900">Optionale Dateien (z.B. Screenshots)</label>
-                            <input type="file" name="anhaenge" class="block w-full px-4 py-4 mt-2 text-xl placeholder-gray-400 bg-gray-200 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50"/>
-                        </div>
-                        <div class="relative">
-                            <label class="font-medium text-gray-900">Deine Lieblingsfarbe</label>
-                            <input type="color" name="lieblingsfarbe" class="block w-full px-4 py-4 mt-2 text-xl placeholder-gray-400 bg-gray-200 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50" placeholder="Deine Lieblingsfarbe..." />
-                        </div>
-                        <br>
-                        <div class="relative">
-                            <button type="submit" class="inline-block w-full px-5 py-4 text-lg font-medium text-center text-white transition duration-200 bg-blue-600 rounded-lg hover:bg-blue-700 ease">Nachricht senden</button>
-                        </div>
-                    </form>
+                        <a href="https://awesomebible.de/kontakt/" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="w-5 h-5 mr-2" viewBox="0 0 16 16">
+                            <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2H2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708l-2 2zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708l-2 2zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                        </svg>Zum Kontaktformular
+                        </a>
+                        <a href="mailto:hi@awesomebible.de" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="w-5 h-5 mr-2" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                        </svg>Schreib uns per E-Mail
+                        </a>
                     </div>
                 </div>
             </div>
