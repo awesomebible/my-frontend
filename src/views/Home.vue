@@ -197,7 +197,7 @@
             
             <!-- Price 1 -->
             <div class="box-border flex flex-col items-center max-w-md p-4 mx-auto my-0 border-4 border-blue-600 border-solid rounded-md sm:p-6 md:px-8 md:py-16">
-                <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl" id="">Free</h3>
+                <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl" id="">Kostenlos</h3>
                 <div class="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p class="box-border m-0 text-6xl font-semibold leading-none border-solid" id="">€0</p>
                     <p class="box-border m-0 border-solid" style="border-image: initial;">
@@ -251,7 +251,7 @@
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-indigo-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" class=""></path>
                         </svg>
-                        Alles aus Free
+                        Alles aus dem kostenlosen Plan
                     </li>
                     <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-indigo-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
