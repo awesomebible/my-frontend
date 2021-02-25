@@ -30,7 +30,7 @@ export let routes = [
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import('./views/kontakt/Erfolg.vue'),
-    // component: About
+    // component: Kontakt-Erfolg
   },
   { path: '/:path(.*)', component: NotFound },
 ]
