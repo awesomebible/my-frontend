@@ -33,10 +33,69 @@
             </nav>
         </div>
     </header>
-    <main>
-        
+    <main class="py-20 bg-white">
+        <div class="px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8" v-if="step === 1">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl xl:text-6xl">
+                Wähle ein Buch, dass du lesen willst.
+            </h2>
+            <div class="flex justify-center mt-8 space-x-3">
+                <label class="inline-flex items-center mt-3">
+                    <input v-model="bookselect.book" type="radio" class="form-radio h-5 w-5 text-purple-600" checked><span class="ml-2 text-gray-700">1. Mose</span>
+                </label>
+            </div>
+            <div class="flex justify-center mt-8 space-x-3">
+                <button @click.prevent="next()" class="inline-flex items-center w-full px-6 py-3 text-sm font-medium leading-4 text-white transition duration-150 ease-in-out bg-transparent bg-green-600 border border-transparent md:px-3 md:w-auto lg:px-5 hover:bg-green-500 focus:outline-none focus:border-green-700 focus:shadow-outline-indigo active:bg-indigo-700">Weiter</button>
+            </div>
+        </div>
+        <div class="px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8" v-if="step === 2">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl xl:text-6xl">
+                Wähle das Kapitel, dass du lesen willst.
+            </h2>
+            <div class="flex justify-center mt-8 space-x-3">
+                <label class="inline-flex items-center mt-3">
+                    <input v-model="bookselect.chapter" type="radio" class="form-radio h-5 w-5 text-purple-600" checked><span class="ml-2 text-gray-700">Kapitel 1</span>
+                </label>
+            </div>
+            <div class="flex justify-center mt-8 space-x-3">
+                <button @click.prevent="finish()" class="inline-flex items-center w-full px-6 py-3 text-sm font-medium leading-4 text-white transition duration-150 ease-in-out bg-transparent bg-green-600 border border-transparent md:px-3 md:w-auto lg:px-5 hover:bg-green-500 focus:outline-none focus:border-green-700 focus:shadow-outline-indigo active:bg-indigo-700">Weiter</button>
+            </div>
+        </div>
+        <div class="px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8" v-if="step === 3">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl xl:text-6xl">
+                {{bookselect.readableTitle}}
+            </h2>
+            <div class="flex justify-center mt-8 space-x-3">
+                <p>{{content}}</p>
+            </div>
+        </div>
     </main>
-    <footer>
-
-    </footer>
 </template>
+<script>
+export default {
+        data(){
+            return {
+            step:1,
+            bookselect:{
+                book: null,
+                chapter: null,
+                verse: null,
+                readableTitle: null,
+                content: null
+            }
+        }
+    },
+    methods: {
+        prev() {
+        this.step--;
+        },
+        next() {
+        this.step++;
+        },
+        finish() {
+        this.step++;
+        url = "https://raw.githubusercontent.com/awesomebible/my-api/main/v1/"++"/"+null+".json";
+        fetch()
+        }
+    }
+}
+</script>
