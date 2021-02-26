@@ -1,5 +1,5 @@
 <template>
-<section class="w-full px-6 mb-12 antialiased bg-white select-none">
+<header class="w-full px-6 mb-12 antialiased bg-white select-none">
     <div class="mx-auto max-w-7xl">
         <nav class="relative z-50 h-24" x-data="{ showMenu: false }">
             <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto font-medium border-b border-gray-200 lg:justify-center sm:px-4 md:px-2">
@@ -44,7 +44,7 @@
             </div>
         </div>
     </div>
-</section>
+</header>
 <section class="py-20 bg-white" id="">
     <div class="container max-w-6xl mx-auto">
         <h2 class="text-4xl font-bold tracking-tight text-center" id="features">Was wir drauf haben...</h2>

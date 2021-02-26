@@ -22,5 +22,14 @@ export let routes = [
     component: () => import('./views/kontakt/Main.vue'),
     // component: Contact
   },
+  {
+    path: '/app',
+    meta: { title: 'App' },
+    // example of route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('./views/app/Main.vue'),
+    // component: Main
+  },
   { path: '/:path(.*)', component: NotFound },
 ]
