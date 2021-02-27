@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import { VuePlausible } from 'vue-plausible'
 import './tailwind.css'
 import App from './App.vue'
 import { routes } from './routes.js'
@@ -27,6 +28,11 @@ if (import.meta.hot) {
     router.replace('')
   })
 }
+
+Vue.use(VuePlausible, {
+  // see configuration section
+})
+Vue.$plausible.enableAutoPageviews() // optional
 
 app.use(router)
 app.mount('#app')
