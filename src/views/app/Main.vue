@@ -93,7 +93,7 @@ export default {
         },
         finish() {
         this.step++;
-        url = "https://raw.githubusercontent.com/awesomebible/my-api/main/v1/"++"/"+null+".json";
+        url = "https://raw.githubusercontent.com/awesomebible/my-api/main/v1/"+this.bookselect.book+"/"+this.bookselect.chapter+".json";
         fetch()
         }
     }
