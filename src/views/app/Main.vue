@@ -93,6 +93,11 @@ export default {
         },
         finish() {
         this.step++;
+
+        alert(this.bookselect.book);
+        alert(this.bookselect.chapter);
+        alert("")
+
         url = "https://raw.githubusercontent.com/awesomebible/my-api/main/v1/"+this.bookselect.book+"/"+this.bookselect.chapter+".json";
         fetch(url)
             .then(response => response.json())
