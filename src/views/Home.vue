@@ -231,12 +231,11 @@
                         alle Bibelübersetzungen
                     </li>
                 </ul>
-                <a class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg"
-                href="/#get-started">
+                <button @click="SignUp" class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
                     Los geht's!
-                </a>
+                </button>
             </div>
-            <!-- Price 3 -->
+            <!-- Price 2 -->
             <div class="box-border flex flex-col items-center max-w-md p-4 mx-auto my-0 border-4 border-indigo-600 border-solid rounded-md sm:p-6 md:px-8 md:py-16">
                 <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl" id="">Plus</h3>
                 <div class="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
@@ -272,7 +271,8 @@
                         Du hilfst uns, my.awesomeBible zu finanzieren! 🥰
                     </li>
                 </ul>
-                <button class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-indigo-600 border rounded cursor-pointer hover:bg-indigo-700 hover:border-indigo-700 hover:text-white focus-within:bg-indigo-700 focus-within:border-pink-700 focus-within:text-white sm:text-base md:text-lg">
+                <button class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-indigo-600 border rounded cursor-pointer hover:bg-indigo-700 hover:border-indigo-700 hover:text-white focus-within:bg-indigo-700 focus-within:border-pink-700 focus-within:text-white sm:text-base md:text-lg"
+                @click="PurchasePlus">
                     Plus kaufen
                 </button>
             </div>
@@ -288,18 +288,18 @@
                 <h2 class="text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl" id="">Fang jetzt dein Abenteuer mit der Bibel an!</h2>
                 <p class="text-xl text-gray-600 md:pr-16" id="">Wir wünschen dir einen schönen Aufenthalt! 🥰</p>
             </div>
-        <form class="w-full mt-16 md:mt-0 md:w-2/5" method="post" action="https://api.awesomebible.de/api/auth.php">
+        <form class="w-full mt-16 md:mt-0 md:w-2/5">
             <div>
                 <div class="relative z-10 h-auto p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7" id="">
                     <h3 class="mb-6 text-2xl font-medium text-center" id="">Öffne das Buch...</h3>
                     <div class="block mb-4 border border-gray-200 rounded-lg">
-                        <input disabled type="text" name="email" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Email address">
+                        <input type="text" name="email" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Email address">
                     </div>
                     <div class="block mb-4 border border-gray-200 rounded-lg">
-                        <input disabled type="password" name="password" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Password">
+                        <input type="password" name="password" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Password">
                     </div>
                     <div class="block">
-                        <button disabled class="w-full px-3 py-4 font-medium text-white bg-blue-600 rounded-lg">Wir nehmen im Moment leider noch keine Registrierungen an.</button>
+                        <button class="w-full px-3 py-4 font-medium text-white bg-blue-600 rounded-lg">Wir nehmen im Moment leider noch keine Registrierungen an.</button>
                     </div>
                 </div>
             </div>
@@ -330,11 +330,20 @@
     </div>
 </footer>
 </template>
-
 <script>
-// see the syntax-sugared version in About.vue
-import ButtonRepo from '@/components/ButtonRepo.vue'
 export default {
-  components: { ButtonRepo },
+    data(){
+        return {
+            data: "hello world."
+        }
+    },
+    methods: {
+    SignUp(event) {
+      this.$router.push({ path: '/register/' });
+    },
+    PurchasePlus(event){
+        this.$router.push({ path: '/plus/'});
+    }
+  }
 }
 </script>

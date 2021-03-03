@@ -29,7 +29,25 @@ export let routes = [
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import('./views/app/Main.vue'),
-    // component: Main
+    // component: App-Main
+  },
+  {
+    path: '/register',
+    meta: { title: 'Registrieren' },
+    // example of route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('./views/register/Main.vue'),
+    // component: Register
+  },
+  {
+    path: '/plus',
+    meta: { title: '' },
+    // example of route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('./views/register/Checkout.vue'),
+    // component: Register-Checkout
   },
   { path: '/:path(.*)', component: NotFound },
 ]
