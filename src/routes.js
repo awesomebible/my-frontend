@@ -32,21 +32,21 @@ export let routes = [
     // component: App-Main
   },
   {
-    path: '/register',
-    meta: { title: 'Registrieren' },
+    path: '/login',
+    meta: { title: 'Anmelden' },
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import('./views/register/Main.vue'),
+    component: () => import('./views/login/Main.vue'),
     // component: Register
   },
   {
-    path: '/plus',
+    path: '/purchase/',
     meta: { title: '' },
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import('./views/register/Checkout.vue'),
+    component: () => import('./views/login/Purchase.vue'),
     // component: Register-Checkout
   },
   { path: '/:path(.*)', component: NotFound },

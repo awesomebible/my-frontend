@@ -6,6 +6,12 @@
       <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
         Melde dich an
       </h2>
+      <p class="mt-2 text-center text-sm text-gray-600">
+        oder
+        <a href="/purchase" class="font-medium text-indigo-600 hover:text-indigo-500">
+          kaufe den Plus Plan, um uns zu unterstützen.
+        </a>
+      </p>
     </div>
     <form class="mt-8 space-y-6" action="#" method="POST">
       <input type="hidden" name="remember" value="true">
@@ -24,12 +30,11 @@
         <div class="flex items-center">
           <input id="remember_me" name="remember_me" type="checkbox" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
           <label for="remember_me" class="ml-2 block text-sm text-gray-900">
-            Merken
+            Merk dich mir
           </label>
         </div>
-
         <div class="text-sm">
-          <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">
+          <a href="/account/reset-password" class="font-medium text-indigo-600 hover:text-indigo-500">
             Hast du dein Passwort vergessen?
           </a>
         </div>

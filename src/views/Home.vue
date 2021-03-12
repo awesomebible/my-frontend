@@ -339,10 +339,10 @@ export default {
     },
     methods: {
     SignUp(event) {
-      this.$router.push({ path: '/register/' });
+      this.$router.push({ path: '/login/' });
     },
     PurchasePlus(event){
-        this.$router.push({ path: '/plus/'});
+        this.$router.push({ path: '/purchase/'});
     }
   }
 }
