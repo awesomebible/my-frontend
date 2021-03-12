@@ -239,7 +239,7 @@
             <div class="box-border flex flex-col items-center max-w-md p-4 mx-auto my-0 border-4 border-indigo-600 border-solid rounded-md sm:p-6 md:px-8 md:py-16">
                 <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl" id="">Plus</h3>
                 <div class="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
-                    <p class="box-border m-0 text-6xl font-semibold leading-none border-solid" id="">€3</p>
+                    <p class="box-border m-0 text-6xl font-semibold leading-none border-solid" id="">€1</p>
                     <p class="box-border m-0 border-solid" style="border-image: initial;">
                         / Monat
                     </p>
