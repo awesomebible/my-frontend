@@ -8,9 +8,9 @@
       </h2>
       <p class="mt-2 text-center text-sm text-gray-600">
         oder
-        <a href="/purchase" class="font-medium text-indigo-600 hover:text-indigo-500">
+        <router-link to="/purchase" class="font-medium text-indigo-600 hover:text-indigo-500">
           kaufe den Plus Plan, um uns zu unterstützen.
-        </a>
+        </router-link>
       </p>
     </div>
     <form class="mt-8 space-y-6" action="#" method="POST">

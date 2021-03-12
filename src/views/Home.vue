@@ -231,9 +231,9 @@
                         alle Bibelübersetzungen
                     </li>
                 </ul>
-                <button @click="SignUp" class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
+                <router-link tag="button" to="/login" class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
                     Los geht's!
-                </button>
+                </router-link>
             </div>
             <!-- Price 2 -->
             <div class="box-border flex flex-col items-center max-w-md p-4 mx-auto my-0 border-4 border-indigo-600 border-solid rounded-md sm:p-6 md:px-8 md:py-16">
@@ -252,29 +252,28 @@
                         </svg>
                         Alles aus dem kostenlosen Plan
                     </li>
-                    <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
+                    <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-indigo-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                         Ein Supporter-Badge neben deinem Namen
                     </li>
-                    <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
+                    <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-indigo-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                         Du kriegst neue Features früher
                     </li>
-                    <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
+                    <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-indigo-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                         Du hilfst uns, my.awesomeBible zu finanzieren! 🥰
                     </li>
                 </ul>
-                <button class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-indigo-600 border rounded cursor-pointer hover:bg-indigo-700 hover:border-indigo-700 hover:text-white focus-within:bg-indigo-700 focus-within:border-pink-700 focus-within:text-white sm:text-base md:text-lg"
-                @click="PurchasePlus">
+                <router-link to="/purchase" tag="button" class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-indigo-600 border rounded cursor-pointer hover:bg-indigo-700 hover:border-indigo-700 hover:text-white focus-within:bg-indigo-700 focus-within:border-pink-700 focus-within:text-white sm:text-base md:text-lg">
                     Plus kaufen
-                </button>
+                </router-link>
             </div>
         </div>
     </div>
@@ -293,13 +292,13 @@
                 <div class="relative z-10 h-auto p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7" id="">
                     <h3 class="mb-6 text-2xl font-medium text-center" id="">Öffne das Buch...</h3>
                     <div class="block mb-4 border border-gray-200 rounded-lg">
-                        <input type="text" name="email" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Email address">
+                        <input disabled type="text" name="email" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Email address">
                     </div>
                     <div class="block mb-4 border border-gray-200 rounded-lg">
-                        <input type="password" name="password" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Password">
+                        <input disabled type="password" name="password" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Password">
                     </div>
                     <div class="block">
-                        <button class="w-full px-3 py-4 font-medium text-white bg-blue-600 rounded-lg">Wir nehmen im Moment leider noch keine Registrierungen an.</button>
+                        <button disabled class="w-full px-3 py-4 font-medium text-white bg-blue-600 rounded-lg">Wir nehmen im Moment leider noch keine Registrierungen an.</button>
                     </div>
                 </div>
             </div>
@@ -330,20 +329,3 @@
     </div>
 </footer>
 </template>
-<script>
-export default {
-    data(){
-        return {
-            data: "hello world."
-        }
-    },
-    methods: {
-    SignUp(event) {
-      this.$router.push({ path: '/login/' });
-    },
-    PurchasePlus(event){
-        this.$router.push({ path: '/purchase/'});
-    }
-  }
-}
-</script>
