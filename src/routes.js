@@ -31,6 +31,15 @@ export let routes = [
     // component: Register-Purchase
   },
   {
+    path: '/account/reset-password',
+    meta: { title: 'Passwort zurücksetzen' },
+    // example of route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('./views/login/ResetPassword.vue'),
+    // component: Register-Purchase
+  },
+  {
     path: '/:path(.*)',
     meta: { title: 'Error 404' },
     // example of route level code-splitting
