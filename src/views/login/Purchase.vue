@@ -17,6 +17,10 @@
       <input type="hidden" name="remember" value="true">
       <div class="rounded-md shadow-sm -space-y-px">
         <div>
+          <label for="invite-code" class="sr-only">Einladungscode</label>
+          <input id="invite-code" name="invite-code" type="text" autocomplete="text" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Einladungscode">
+        </div>
+        <div>
           <p class="mt-2 text-center text-sm text-gray-600">Mit fortfahren stimmst du der my.awesomeBible AGB und Datenschutzerkärung zu.</p>
           <p class="mt-2 text-center text-sm text-gray-600">Wir benutzen zum verarbeiten der Zahlung den Online-Dienst <a href="https://stripe.com" class="font-medium text-indigo-600 hover:text-indigo-500">Stripe</a>.
           Mit fortfahren, stimmst du auch dessen <a href="https://stripe.com/de/privacy">Datenschutzerkärung</a> zu.</p>
