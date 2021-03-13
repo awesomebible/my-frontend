@@ -6,9 +6,6 @@
       <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
         Kaufe den Plus-Plan
       </h2>
-        <h3 class="mt-3 text-center text-2xl font-bold text-gray-900">
-        (€1)
-      </h3>
       <p class="mt-2 text-center text-sm text-gray-600">
         oder
         <router-link to="/login" class="font-medium text-indigo-600 hover:text-indigo-500">
