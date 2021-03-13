@@ -12,7 +12,7 @@
                         <div class="flex flex-col items-start justify-center w-full text-center md:w-2/3 md:mt-0 md:flex-row md:items-center">
                             <a href="/" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-indigo-600 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Home</a>
                             <a href="#features" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Features</a>
-                            <a href="https://awesomebible.de/tag/my-awesomebible/" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Blog</a>
+                            <a href="https://github.com/awesomebible/my-united/discussions/categories/blog" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Blog</a>
                             <a href="/kontakt" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Kontakt</a>
                         </div>
                         <div class="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
@@ -309,7 +309,7 @@
     <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <nav class="flex flex-wrap justify-center -mx-5 -my-2">
             <div class="px-5 py-2">
-                <a href="https://awesomebible.de/tag/my-awesomebible/" class="text-base leading-6 text-black-500 hover:text-black-900">
+                <a href="https://github.com/awesomebible/my-united/discussions/categories/blog" class="text-base leading-6 text-black-500 hover:text-black-900">
                     Blog
                 </a>
             </div>
