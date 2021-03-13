@@ -31,11 +31,6 @@
 
             <h1 class="text-5xl font-extrabold tracking-tight text-left text-gray-900 leading-tightest md:leading-10 md:text-center sm:leading-none md:text-6xl lg:text-7xl"><span class="inline md:block" id="">Hast du eine Frage?</span> <span class="relative mt-2 text-transparent md:inline-block bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500" id="">Stell sie. Wir haben antworten, die wir dir gerne geben würden!</span></h1>
             <div class="mx-auto mt-5 text-gray-500 md:mt-12 md:max-w-lg md:text-center lg:text-lg" id=""></div>
-            <div class="flex flex-col items-center mt-12 text-center">
-                <span class="relative inline-flex w-full rounded-full shadow-sm md:w-auto">
-                    <a type="button" href="#contact" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-full md:w-auto hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700" id="">Worauf wartest du?</a>
-                </span>
-            </div>
         </div>
     </div>
 </section>
