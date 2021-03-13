@@ -65,7 +65,7 @@
             <div class="w-full bg-white lg:w-6/12 xl:w-5/12">
 
                 <div class="flex flex-col items-start justify-start w-full h-full p-10 lg:p-16 xl:p-24">
-                    <h4 class="w-full text-3xl font-bold">Kontakt</h4>
+                    <h4 class="w-full text-3xl font-bold">Schreib uns!</h4>
                     <p class="text-lg text-gray-500"></p>
                     <div class="relative w-full mt-10 space-y-8">
                         <a href="https://github.com/awesomebible/my-united/discussions" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700">
