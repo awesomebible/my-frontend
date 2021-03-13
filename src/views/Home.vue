@@ -138,7 +138,6 @@
                 <h4 class="text-xl font-medium text-gray-700" id="">Open Source</h4>
                 <p class="text-base text-center text-gray-500" id="">my.awesomeBible ist komplett open-source. Das bedeutet, jeder kann Sicherheitslücken im Code finden und neue Features hinzufügen.</p>
             </div>
-
         </div>
     </div>
 </section>
