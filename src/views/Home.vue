@@ -12,7 +12,7 @@
                         <div class="flex flex-col items-start justify-center w-full text-center md:w-2/3 md:mt-0 md:flex-row md:items-center">
                             <a href="/" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-indigo-600 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Home</a>
                             <a href="#features" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Features</a>
-                            <a href="https://awesomebible.de/tag/my-awesomebible/" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Blog</a>
+                            <a href="https://github.com/awesomebible/my-united/discussions/categories/blog" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Blog</a>
                             <a href="/kontakt" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Kontakt</a>
                         </div>
                         <div class="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
@@ -138,7 +138,6 @@
                 <h4 class="text-xl font-medium text-gray-700" id="">Open Source</h4>
                 <p class="text-base text-center text-gray-500" id="">my.awesomeBible ist komplett open-source. Das bedeutet, jeder kann Sicherheitslücken im Code finden und neue Features hinzufügen.</p>
             </div>
-
         </div>
     </div>
 </section>
@@ -180,9 +179,9 @@
         class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
         <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Noch mehr Fragen?</h3>
         <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Schreib uns! Wir sind per E-Mail erreichbar: 
-            <a href="mailto:hi@awesomebible.de" class="hover:text-indigo-600">hi@awesomebible.de</a> oder via <a href="https://discord.awesomebible.de" class="hover:text-indigo-600">Discord</a>, 
+            <a href="mailto:hi@awesomebible.de" class="hover:text-indigo-600">hi@awesomebible.de</a> oder via <a href="" class="hover:text-indigo-600">Discord</a>, 
             wenn du einer von den Cool-Kids bist. 😉 <br>
-            Wir antworten dir gerne!
+            Wir antworten dir gerne! 😀
             </p>
     </div>
     </div>
@@ -216,13 +215,13 @@
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        ∞ viele Notizen
+                        <img src="/images/infinity.svg" alt="Unendlich" class="w-5 h-5 mr-2 leading-7 sm:h-5 sm:w-5 md:h-6 md:w-6"> viele Notizen
                     </li>
                     <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        ∞ viele Markierungen
+                        <img src="/images/infinity.svg" alt="Unendlich" class="w-5 h-5 mr-2 leading-7 sm:h-5 sm:w-5 md:h-6 md:w-6"> viele Markierungen
                     </li>
                     <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -231,16 +230,15 @@
                         alle Bibelübersetzungen
                     </li>
                 </ul>
-                <a class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg"
-                href="/#get-started">
+                <router-link tag="button" to="/login" class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
                     Los geht's!
-                </a>
+                </router-link>
             </div>
-            <!-- Price 3 -->
+            <!-- Price 2 -->
             <div class="box-border flex flex-col items-center max-w-md p-4 mx-auto my-0 border-4 border-indigo-600 border-solid rounded-md sm:p-6 md:px-8 md:py-16">
                 <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl" id="">Plus</h3>
                 <div class="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
-                    <p class="box-border m-0 text-6xl font-semibold leading-none border-solid" id="">€3</p>
+                    <p class="box-border m-0 text-6xl font-semibold leading-none border-solid" id="">€1</p>
                     <p class="box-border m-0 border-solid" style="border-image: initial;">
                         / Monat
                     </p>
@@ -253,28 +251,28 @@
                         </svg>
                         Alles aus dem kostenlosen Plan
                     </li>
-                    <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
+                    <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-indigo-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                         Ein Supporter-Badge neben deinem Namen
                     </li>
-                    <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
+                    <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-indigo-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                         Du kriegst neue Features früher
                     </li>
-                    <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
+                    <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-indigo-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                         Du hilfst uns, my.awesomeBible zu finanzieren! 🥰
                     </li>
                 </ul>
-                <button class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-indigo-600 border rounded cursor-pointer hover:bg-indigo-700 hover:border-indigo-700 hover:text-white focus-within:bg-indigo-700 focus-within:border-pink-700 focus-within:text-white sm:text-base md:text-lg">
+                <router-link to="/purchase" tag="button" class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-indigo-600 border rounded cursor-pointer hover:bg-indigo-700 hover:border-indigo-700 hover:text-white focus-within:bg-indigo-700 focus-within:border-pink-700 focus-within:text-white sm:text-base md:text-lg">
                     Plus kaufen
-                </button>
+                </router-link>
             </div>
         </div>
     </div>
@@ -288,7 +286,7 @@
                 <h2 class="text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl" id="">Fang jetzt dein Abenteuer mit der Bibel an!</h2>
                 <p class="text-xl text-gray-600 md:pr-16" id="">Wir wünschen dir einen schönen Aufenthalt! 🥰</p>
             </div>
-        <form class="w-full mt-16 md:mt-0 md:w-2/5" method="post" action="https://api.awesomebible.de/api/auth.php">
+        <form class="w-full mt-16 md:mt-0 md:w-2/5">
             <div>
                 <div class="relative z-10 h-auto p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7" id="">
                     <h3 class="mb-6 text-2xl font-medium text-center" id="">Öffne das Buch...</h3>
@@ -311,7 +309,7 @@
     <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <nav class="flex flex-wrap justify-center -mx-5 -my-2">
             <div class="px-5 py-2">
-                <a href="https://awesomebible.de/tag/my-awesomebible/" class="text-base leading-6 text-black-500 hover:text-black-900">
+                <a href="https://github.com/awesomebible/my-united/discussions/categories/blog" class="text-base leading-6 text-black-500 hover:text-black-900">
                     Blog
                 </a>
             </div>
@@ -330,11 +328,3 @@
     </div>
 </footer>
 </template>
-
-<script>
-// see the syntax-sugared version in About.vue
-import ButtonRepo from '@/components/ButtonRepo.vue'
-export default {
-  components: { ButtonRepo },
-}
-</script>
