@@ -1,5 +1,4 @@
 import Home from './views/Home.vue'
-import NotFound from './views/NotFound.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export let routes = [
@@ -20,7 +19,7 @@ export let routes = [
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import('./views/login/Main.vue'),
-    // component: Register
+    // component: Login
   },
   {
     path: '/purchase',
@@ -29,7 +28,16 @@ export let routes = [
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import('./views/login/Purchase.vue'),
-    // component: Register-Checkout
+    // component: Register-Purchase
   },
-  { path: '/:path(.*)', component: NotFound },
+  {
+    path: '/:path(.*)',
+    meta: { title: 'Error 404' },
+    // example of route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('./views/NotFound.vue'),
+    // component: FourOFour
+  },
+  
 ]
