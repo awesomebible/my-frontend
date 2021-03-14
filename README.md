@@ -1,6 +1,6 @@
 ## my.awesomeBible Frontend
 
-Das my.awesomeBible ist in [Vue](https://vuejs.org) geschrieben (well, technically JavaScript) und nutzt [TailwindCSS](https://tailwindcss.com) fürs Styling.
+Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Frontend ist in [Vue](https://vuejs.org) geschrieben (well, technically JavaScript) und nutzt [TailwindCSS](https://tailwindcss.com) fürs Styling.
 
 ![Homepage Screenshot](https://user-images.githubusercontent.com/42138517/109193563-c9d75980-7798-11eb-8528-7bc7505a6847.png)
 
