@@ -4,6 +4,8 @@ Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Front
 
 ![Homepage Screenshot](https://user-images.githubusercontent.com/42138517/109193563-c9d75980-7798-11eb-8528-7bc7505a6847.png)
 
+Das my.awesomeBible-Frontend ist auf Netlify gehosted.
+
 ## Mitmachen! 🦄
 ### Entwicklung: Setup 🚀
 
@@ -20,4 +22,11 @@ yarn
 yarn dev
 yarn build
 yarn serve
+```
+Das Frontend ist auf Netlify gehosted:
+Entwicklung mit [Netlify Dev]()
+```sh
+npm install netlify-cli -g # Installiert Netlify Dev
+npm install # Installiert die Abhängingkeiten des Frontends.
+netlify dev # Startet den Entwicklungsserver
 ```
