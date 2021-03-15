@@ -153,8 +153,8 @@
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Wie finanziert ihr euch?</h3>
-            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Wir finanzieren uns primär durch eigenes Geld. 
-                Wenn du dich dazu entscheiden hast den Plus Plan zu kaufen bist du daran Schuld, dass wir länger überleben. 😉 Danke! ♥ 🥰</p>
+            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Wir finanzieren uns aktuell ausschließlich aus eigenem Geld, diese entscheidung haben wir getroffen, weil wir eine <span class="font-bold">wirklich</span> kostenlose und offene Bibelapp bauen wollen. <br>
+            Mehr über Geld, und wie es weiter geht findest du <a class="hover:text-indigo-600" href="https://github.com/awesomebible/my-united/discussions/3">hier</a>. </p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
@@ -197,7 +197,7 @@
                         / Monat
                     </p>
                 </div>
-                <p class="mt-6 mb-5 text-base leading-normal text-left text-gray-900 border-0 border-gray-200" id="">Für alle, die my.awesomeBible ausprobieren wollen, oder die jenigen mit Käse im Geldbeutel und Ratten im Haus.</p>
+                <p class="mt-6 mb-5 text-base leading-normal text-left text-gray-900 border-0 border-gray-200" id="">Für alle. Wir sind offen und dankbar für neue Nutzer!</p>
                 <ul class="flex-1 p-0 mt-4 leading-7 text-gray-900 border-0 border-gray-200">
                     <li class="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid" id="">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
