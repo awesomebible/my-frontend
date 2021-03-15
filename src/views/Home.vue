@@ -268,9 +268,9 @@
                 </a>
             </div>
             <div class="px-5 py-2">
-                <a href="/kontakt" class="text-base leading-6 text-black-500 hover:text-black-900">
+                <router-link to="/kontakt" class="text-base leading-6 text-black-500 hover:text-black-900">
                     Kontakt
-                </a>
+                </router-link>
             </div>
             <div class="px-5 py-2">
                 <a href="https://github.com/awesomebible/my-frontend" class="text-base leading-6 text-black-500 hover:text-black-900">
