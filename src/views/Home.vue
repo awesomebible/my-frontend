@@ -1,7 +1,7 @@
 <template>
 <header class="w-full px-6 mb-12 antialiased bg-white select-none">
     <div class="mx-auto max-w-7xl">
-        <nav class="relative z-50 h-24" x-data="{ showMenu: false }">
+        <nav class="relative z-50 h-24">
             <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto font-medium border-b border-gray-200 lg:justify-center sm:px-4 md:px-2">
                 <router-link to="/" class="w-1/4 py-4 pr-4 md:py-0">
                     <span class="text-xl font-black leading-none text-gray-900 select-none logo">my.awesomeBible<span class="text-indigo-600">.</span></span>
@@ -17,7 +17,7 @@
                         </div>
                     </div>
                 </div>
-                <div @click="showMenu = !showMenu" class="absolute right-0 flex flex-col items-center items-end justify-center w-10 h-10 rounded-full cursor-pointer md:hidden hover:bg-gray-100">
+                <div @click="showMenu = !showMenu" class="absolute right-0 flex flex-col items-center justify-center w-10 h-10 rounded-full cursor-pointer md:hidden hover:bg-gray-100">
                     <svg class="w-6 h-6 text-gray-700" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
