@@ -5,7 +5,8 @@ Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Front
 ![Homepage Screenshot](https://i1.wp.com/awesomebible.de/wp-content/uploads/2021/03/my-awesomebible_homepage.png)
 
 ## Frontend Status
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2efb7d8b-d3bb-480e-b4f7-095b051759e0/deploy-status)](https://app.netlify.com/sites/my-frontend/deploys)
+Aktuell keine CI/CD, da Netlify Codeberg nicht unterstützt.
+Wenn Codeberg CI/CD-Support bekommt, wird das Frontend wieder geupdated.
 
 ## Mitmachen! 🦄
 ### Entwicklung: Setup 🚀
