@@ -18,16 +18,7 @@
                 </a>
             </div>
         </nav>
-        <p class="mt-8 text-base leading-6 text-center text-black-400">© {{date}} awesomeBible</p>
+        <p class="mt-8 text-base leading-6 text-center text-black-400">© 2021 awesomeBible</p>
     </div>
 </footer>
 </template>
-<script>
-export default {
-    data() {
-        return {
-        date: new Date().getFullYear(),
-        };
-  },
-}
-</script>
