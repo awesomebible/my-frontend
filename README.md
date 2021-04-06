@@ -32,6 +32,3 @@ yarn dev # Startet den Dev-Server
 yarn build # Baut einen Build
 yarn serve # Startet den Build mit einem lokalen Server
 ```
-
-
-#### 
