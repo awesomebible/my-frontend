@@ -4,16 +4,12 @@ Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Front
 
 ![Homepage Screenshot](https://i1.wp.com/awesomebible.de/wp-content/uploads/2021/03/my-awesomebible_homepage.png)
 
-## Frontend Status
-Aktuell keine CI/CD, da Netlify Codeberg nicht unterstützt.
-Wenn Codeberg CI/CD-Support bekommt, wird das Frontend wieder geupdated.
-
 ## Mitmachen! 🦄
 ### Entwicklung
 #### Setup 🚀
 Schritt 1 ist, das Git-Repo zu klonen:
 ```sh
-git clone https://codeberg.org/awesomebible/my-frontend.git
+git clone git@github.com:awesomebible/my-frontend.git
 ```
 
 Für die Entwicklung benutzen wir [Node.js Current](https://nodejs.org/en/download/current/). 
