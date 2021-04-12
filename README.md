@@ -5,6 +5,9 @@ Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Front
 ![Homepage Screenshot](https://i1.wp.com/awesomebible.de/wp-content/uploads/2021/03/my-awesomebible_homepage.png)
 
 ## Mitmachen! 🦄
+
+
+
 ### Entwicklung
 #### Setup 🚀
 Schritt 1 ist, das Git-Repo zu klonen:
