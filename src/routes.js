@@ -31,6 +31,15 @@ export let routes = [
     // component: Reset-Password
   },
   {
+    path: '/app',
+    meta: { title: 'Dashboard' },
+    // example of route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('./views/app/Dashboard.vue'),
+    // component: App-Dashboard
+  },
+  {
     path: '/:path(.*)',
     meta: { title: 'Error 404' },
     // example of route level code-splitting
