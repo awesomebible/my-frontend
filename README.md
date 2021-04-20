@@ -1,5 +1,4 @@
-# my.awesomeBible Frontend  - Jetzt auf [Codeberg](https://codeberg.org/awesomebible/my-frontend)
-
+# my.awesomeBible Frontend
 Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Frontend ist in [Vue](https://vuejs.org) geschrieben (well, technically JavaScript) und nutzt [TailwindCSS](https://tailwindcss.com) fürs Styling.
 
 ![Homepage Screenshot](https://i1.wp.com/awesomebible.de/wp-content/uploads/2021/03/my-awesomebible_homepage.png)
