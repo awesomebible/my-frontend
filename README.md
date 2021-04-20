@@ -11,7 +11,7 @@ Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Front
 #### Setup 🚀
 Schritt 1 ist, das Git-Repo zu klonen:
 ```sh
-git clone git@github.com:awesomebible/my-frontend.git
+git clone https://codeberg.org/awesomebible/my-frontend.git
 ```
 
 Für die Entwicklung benutzen wir [Node.js Current](https://nodejs.org/en/download/current/). 
