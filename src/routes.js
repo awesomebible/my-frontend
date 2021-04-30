@@ -9,7 +9,7 @@ export let routes = [
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import('./views/kontakt/Main.vue'),
+    component: () => import('./views/Kontakt.vue'),
     // component: Contact
   },
   {
@@ -18,7 +18,7 @@ export let routes = [
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import('./views/login/Main.vue'),
+    component: () => import('./views/account/Login.vue'),
     // component: Login
   },
   {
@@ -27,8 +27,17 @@ export let routes = [
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import('./views/login/ResetPassword.vue'),
+    component: () => import('./views/account/ResetPassword.vue'),
     // component: Reset-Password
+  },
+  {
+    path: '/about',
+    meta: { title: 'Über my.awesomeBible' },
+    // example of route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('./views/About.vue'),
+    // component: About
   },
   {
     path: '/:path(.*)',

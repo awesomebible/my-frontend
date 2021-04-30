@@ -9,7 +9,7 @@ module.exports = {
         sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: theme => ({
-        'four-oh-four': "url('https://my.awesomebible.de/images/404.jpg')",
+        'four-oh-four': "url('/images/404.jpg')",
        })
     },
   },
