@@ -103,7 +103,7 @@
             <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal inline-flex items-center w-full mb-2 font-semibold text-left border-solid">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5 mr-2 leading-7 sm:h-5 sm:w-5 md:h-6 md:w-6">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg><router-link to="/about" class="hover:text-indigo-600">Mehr Informationen</router-link>
+            </svg><router-link to="/datenschutz" class="hover:text-indigo-600">Mehr Informationen</router-link>
             </p>
         </div>
         <div

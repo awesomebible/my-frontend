@@ -31,13 +31,13 @@ export let routes = [
     // component: Reset-Password
   },
   {
-    path: '/about',
-    meta: { title: 'Über my.awesomeBible' },
+    path: '/datenschutz',
+    meta: { title: 'Datenschutz' },
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import('./views/About.vue'),
-    // component: About
+    component: () => import('./views/Datenschutz.vue'),
+    // component: Datenschutz
   },
   {
     path: '/:path(.*)',
