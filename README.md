@@ -5,10 +5,8 @@ Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Front
 
 ## Mitmachen! 🦄
 
-
-
-### Entwicklung
-#### Setup 🚀
+### Entwicklung 👷🏻‍♂️🚧
+#### Setup 🛠
 Schritt 1 ist, das Git-Repo zu klonen:
 ```sh
 git clone https://codeberg.org/awesomebible/my-frontend.git
@@ -30,3 +28,5 @@ yarn dev # Startet den Dev-Server
 yarn build # Baut einen Build
 yarn serve # Startet den Build mit einem lokalen Server
 ```
+## Bereitstellung 🚀
+[![Build Status](https://drone.awesomebible.de/api/badges/awesomeBible/my-frontend/status.svg)](https://drone.awesomebible.de/awesomeBible/my-frontend)
