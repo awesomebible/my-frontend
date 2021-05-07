@@ -1,13 +1,13 @@
 pipeline:
   build:
-    image: node
+    image: node/
     commands:
       - npm install
       - npm run build
   deploy:
     image: cschlosser/drone-ftps
-    hostname: example.com:21
+    hostname: awesomebible.de
     secrets: [ ftp_username, ftp_password ]
     src_dir: dist/
-    dest_dir: /web/awesomebible.de/my/
-+   verify: false
+    dest_dir: /
+    verify: false
