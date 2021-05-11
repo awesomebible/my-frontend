@@ -28,7 +28,7 @@ Was ist deine Lieblingsschriftart?
 
 Egal was es ist: Keine Idee ist zu dumm, kein Wunsch zu wenig.
 
-Schreib uns [per Email](mailto:hi@awesomebible.de), [über dieses Kontaktformular](https://awesomebible.de/kontakt/) oder öffne ein [Codeberg Issue](https://codeberg.org/awesomebible/my-united/issues/new).
+Schreib uns [per Email](mailto:hi@awesomebible.de), [über dieses Kontaktformular](https://awesomebible.de/kontakt/) oder öffne ein [Codeberg Issue](https://codeberg.org/awesomebible/my/issues/new).
 
 ### Entwicklung 🛠
 #### Setup 🛠
@@ -57,4 +57,4 @@ yarn serve # Startet den Build mit einem lokalen Server
 ### Design 🍥
 Programmieren ist nicht dein Ding? Du designst, zeichnest oder entwirfst lieber?
 Auch dann kannst du uns helfen!
-Oft wird für ein Feature ein Mockup oder ein Design benötigt, alle Issues wo ein Design benötigt wird, sind [hier](https://codeberg.org/awesomebible/my-frontend/issues?q=&type=all&state=open&labels=16018&milestone=0&assignee=0) und [hier](https://codeberg.org/awesomebible/my-united/issues?q=&type=all&sort=&state=open&labels=16008&milestone=0&assignee=0) zu finden.
+Oft wird für ein Feature ein Mockup oder ein Design benötigt, alle Issues wo ein Design benötigt wird, sind [hier](https://codeberg.org/awesomebible/my-frontend/issues?q=&type=all&state=open&labels=16018&milestone=0&assignee=0) zu finden.

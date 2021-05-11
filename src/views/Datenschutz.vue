@@ -32,7 +32,7 @@
             class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Wie finanziert ihr euch?</h3>
             <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Wir finanzieren uns aktuell ausschließlich aus eigenem Geld, diese Entscheidung haben wir getroffen, weil wir eine <span class="font-bold">wirklich</span> kostenlose und offene Bibelapp bauen wollen. <br>
-            Mehr über Geld, und wie es weiter geht findest du <a class="hover:text-indigo-600" href="https://codeberg.org/awesomebible/my-united/issues/1">hier</a>. </p>
+            Mehr über Geld, und wie es weiter geht findest du <a class="hover:text-indigo-600" href="https://awesomebible.codeberg.page/post/vision/">hier</a>. </p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
@@ -51,7 +51,7 @@
         class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
         <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Noch mehr Fragen?</h3>
         <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Schreib uns! Wir sind per E-Mail erreichbar: 
-            <a href="mailto:hi@awesomebible.de" class="hover:text-indigo-600">hi@awesomebible.de</a> oder via <a href="https://codeberg.org/awesomebible/my-united" class="hover:text-indigo-600">Codeberg Issues</a>. 
+            <a href="mailto:hi@awesomebible.de" class="hover:text-indigo-600">hi@awesomebible.de</a> oder via <a href="https://codeberg.org/awesomebible/my" class="hover:text-indigo-600">Codeberg Issues</a>. 
             Wir antworten dir gerne! 😀
             </p>
     </div>
