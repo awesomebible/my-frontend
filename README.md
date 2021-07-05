@@ -3,7 +3,9 @@ Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Front
 
 ![Homepage Screenshot](https://i1.wp.com/awesomebible.de/wp-content/uploads/2021/03/my-awesomebible_homepage.png)
 
-Als Backend benutzt my.awesomeBible [Supabase](https://supabase.io).
+Das Backend von my.awesomeBible ist [hier](https://codeberg.org/awesomebible/my-backend) zu finden.
+
+Der Code für das Backend ist in PHP geschrieben.
 
 ### [Bibel API](https://codeberg.org/awesomebible/bible-api)
 In diesem Repository befindet sich die Bibel-API die für my.awesomeBbible verwendet wird.
