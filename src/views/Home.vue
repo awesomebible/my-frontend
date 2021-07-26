@@ -97,12 +97,7 @@
             class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Wo liegen meine Daten?</h3>
             <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Deine Daten liegen in Deutschland, das ist uns wichtig, weil Deutschland starke Datenschutz-Gesetze hat.
-                Um noch ein Stück genauer zu werden: Deine Daten liegen auf einem Server von <a href="https://aws.amazon.com" class="hover:text-indigo-600">Amazon Web Services</a>, in <a href="https://docs.aws.amazon.com/de_de/general/latest/gr/rande.html" class="hover:text-indigo-600">Frankfurt</a>.
-            </p>
-            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal inline-flex items-center w-full mb-2 font-semibold text-left border-solid">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5 mr-2 leading-7 sm:h-5 sm:w-5 md:h-6 md:w-6">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg><router-link to="/datenschutz" class="hover:text-indigo-600">Mehr Informationen</router-link>
+                Um noch ein Stück genauer zu werden: Deine Daten liegen auf einem Server von der <a href="https://manitu.de" class="hover:text-indigo-600">manitu GmbH</a> in <a href="https://www.openstreetmap.org/node/6538846006" class="hover:text-indigo-600">St. Wedel</a>.
             </p>
         </div>
         <div
