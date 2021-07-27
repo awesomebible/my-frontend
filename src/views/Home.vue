@@ -80,8 +80,9 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                 </div>
-                <h4 class="text-xl font-medium text-gray-700" id="">Open Source</h4>
-                <p class="text-base text-center text-gray-500" id="">my.awesomeBible ist komplett open-source. Das bedeutet, jeder kann Sicherheitslücken im Code finden und neue Features hinzufügen.</p>
+                <h4 class="text-xl font-medium text-gray-700" id="">Quelloffen</h4>
+                <p class="text-base text-center text-gray-500" id="">my.awesomeBible ist komplett Quelloffen. Das bedeutet, dass jeder Sicherheitslücken im Code finden und neue Features hinzufügen kann.</p>
+                <a class="text-base text-center text-gray-500 hover:text-indigo-600" href="https://codeberg.org/awesomebible/my-frontend"> -> Codeberg </a>
             </div>
         </div>
     </div>
