@@ -1,8 +1,15 @@
 # my.awesomeBible
+## Eine neue Generation der Bibelarbeit
+my.awesomeBible ist ein neuer Ansatz für Bibel-Apps.
+Wir setzen auf Kommunikation und Bibelarbeit als Zusammenarbeit in Echtzeit.
+Unser Ziel ist es, Menschen zu vernetzen und ihnen die Tools zu geben die sie brauchen, um Gottes Wort zu entdecken.
+
+### Frontend
 Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Frontend ist in [Vue](https://vuejs.org) geschrieben und nutzt [TailwindCSS](https://tailwindcss.com) fürs Styling.
 
 ![Homepage Screenshot](https://i1.wp.com/awesomebible.de/wp-content/uploads/2021/03/my-awesomebible_homepage.png)
 
+### Backend
 Das Backend von my.awesomeBible ist [hier](https://codeberg.org/awesomebible/my-backend) zu finden.
 
 Der Code für das Backend ist in PHP geschrieben.
