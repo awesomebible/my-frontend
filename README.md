@@ -1,5 +1,5 @@
 # my.awesomeBible
-## Eine neue Generation der Bibelarbeit
+## Mit my.awesomeBible beginnt eine neue Generation der Bibelarbeit. *Deine* neue Generation der Bibelarbeit.
 my.awesomeBible ist ein neuer Ansatz für Bibel-Apps.
 Wir setzen auf Kommunikation und Bibelarbeit als Zusammenarbeit in Echtzeit.
 Unser Ziel ist es, Menschen zu vernetzen und ihnen die Tools zu geben die sie brauchen, um Gottes Wort zu entdecken.
