@@ -28,10 +28,15 @@
         </nav>
     </div>
 </header>
-<main class="text-center mx-60 grid grid-flow-col grid-cols-2 grid-rows-1 gap-10">
-    <div id="verse-of-the-day" class="rounded-lg max-w-md py-4 px-8 bg-white shadow-lg my-20">
-        <h2 class="text-4xl font-bold tracking-tight text-center mb-3">Vers des Tages</h2>
-        <img src="https://verse.awesomebible.de" alt="" height="640px" width="640" class="rounded-lg mx-auto">
+<main class="text-center mx-60 grid grid-flow-col lg:grid-cols-2 grid-cols-1 grid-rows-1 gab-5 lg:gap-10">
+    <div id="compose-form">
+        <input type="text" class="">
+        <textarea class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" rows="3" placeholder="Enter some long form content."></textarea>
+        <button class="inline-flex items-center justify-center px-5 py-3 my-5 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+            </svg> Post senden
+        </button>
     </div>
     <div id="feed" class="">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam labore rem, maiores saepe voluptatum fugit sequi recusandae, a debitis natus corrupti neque quibusdam! Eligendi odit cupiditate id numquam accusantium minima?
