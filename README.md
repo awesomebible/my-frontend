@@ -1,27 +1,31 @@
 # my.awesomeBible
 ## Mit my.awesomeBible beginnt eine neue Generation der Bibelarbeit. *Deine* neue Generation der Bibelarbeit.
-my.awesomeBible ist ein neuer Ansatz für Bibel-Apps.
+my.awesomeBible ist unser neuer Ansatz für Bibel-Apps.
 Wir setzen auf Kommunikation und Bibelarbeit als Zusammenarbeit in Echtzeit.
 Unser Ziel ist es, Menschen zu vernetzen und ihnen die Tools zu geben die sie brauchen, um Gottes Wort zu entdecken.
 
-### Frontend
+### [Frontend](https://codeberg.org/awesomebible/my-frontend)
 Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Frontend ist in [Vue](https://vuejs.org) geschrieben und nutzt [TailwindCSS](https://tailwindcss.com) fürs Styling.
 
 ![Homepage Screenshot](https://i1.wp.com/awesomebible.de/wp-content/uploads/2021/03/my-awesomebible_homepage.png)
 
-### Backend
-Das Backend von my.awesomeBible ist [hier](https://codeberg.org/awesomebible/my-backend) zu finden.
+### [Backend](https://codeberg.org/awesomebible/my-backend)
+Das Backend von my.awesomeBible - der Teil von dem alle Eingaben in der App verarbeitet und speichert.
 
-Der Code für das Backend ist in PHP geschrieben.
+Das Backend ist in PHP geschrieben und nutzt MariaDB als Datenbanksystem.
 
 ### [Bibel API](https://codeberg.org/awesomebible/bible-api)
 In diesem Repository befindet sich die Bibel-API die für my.awesomeBbible verwendet wird.
+
+Die Bibel-API stellt vorerst nur die [Menge-Bibel](https://de.wikipedia.org/wiki/Hermann_Menge#Die_Menge-Bibel) zur Verfügung.
+
+Die Übersetzung selbst ist gemeinfrei, deswegen sind die Dateien die von der API ausgegeben werden (``.json``-Dateien) unter der [Public Domain Mark-Lizenz](https://creativecommons.org/publicdomain/mark/1.0/deed.de) lizensiert, damit auch sie frei von Urheberrechtsschutz sind.
 
 ## Unsere Mission ⭐
 awesomeBible hat sich als Ziel gesetzt, *jedem* von Gottes Genialem Plan zu erzählen.
 
 my.awesomeBible baut darauf auf.
-Mit diesem Projekt wollen wir Christen helfen, Gottes Wort dort zu hören, wo sie sind - mit ihm interagieren zu können, und es teilen zu können.
+Mit diesem Projekt wollen wir Christen helfen, Gottes Wort dort zu hören, wo sie sind - mit ihm interagieren zu können und es teilen zu können.
 
 Wir bauen my.awesomeBible nicht für Profit, sondern weil es etwas ist, was wir uns selbst wünschen.
 Wir haben my.awesomeBible mit den Werten gebaut, die uns wichtig sind - Gemeinschaft, Freiheit und Datenschutz - und nicht um das nächste Billion-Dollar-Unicorn zu werden.
@@ -37,7 +41,7 @@ Was ist deine Lieblingsschriftart?
 
 Egal was es ist: Keine Idee ist zu dumm, kein Wunsch zu wenig.
 
-Schreib uns [per Email](mailto:hi@awesomebible.de), [über dieses Kontaktformular](https://awesomebible.de/kontakt/) oder öffne ein [Codeberg Issue](https://codeberg.org/awesomebible/my/issues/new).
+Schreib uns [per Email](mailto:hi@awesomebible.de), [über dieses Kontaktformular](https://awesomebible.de/kontakt/) oder öffne ein [Codeberg Issue](https://codeberg.org/awesomebible/my-frontend/issues/new).
 
 ### Entwicklung 🛠
 #### Setup 🛠
@@ -46,7 +50,7 @@ Schritt 1 ist, das Git-Repo zu klonen:
 git clone https://codeberg.org/awesomebible/my-frontend.git
 ```
 
-Für die Entwicklung benutzen wir [Node.js Current](https://nodejs.org/en/download/current/). 
+Für die Entwicklung benutzen wir [Node.js LTS](https://nodejs.org/de/download/). 
 
 Wenn du [npm](https://nodejs.org/de/) benutzt:
 ```sh
