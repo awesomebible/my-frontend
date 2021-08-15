@@ -16,7 +16,7 @@
 <section class="py-20 bg-white" id="">
     <div class="container max-w-6xl mx-auto">
         <h2 class="text-4xl font-bold tracking-tight text-center" id="features">Was wir drauf haben...</h2>
-        <p class="mt-2 text-lg text-center text-gray-600" id="">Eine Zusammenfassung von den wichtigsten Funktionen die my.awesomeBible bietet:</p>
+        <p class="mt-2 text-lg text-center text-gray-700" id="">Eine Zusammenfassung von den wichtigsten Funktionen die my.awesomeBible bietet:</p>
         <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0" id="">
 
             <div class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl bg-gradient-to-br from-purple-200 to-blue-200" id="">
@@ -25,8 +25,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                     </svg>
                 </div>
-                <h4 class="text-xl font-medium text-gray-700" id="">Lies!</h4>
-                <p class="text-base text-center text-gray-500" id="">Lies die Bibel so wie <b>du</b> möchtest: Lightmode, Darkmode, Comic Sans - alles ist dir überlassen.</p>
+                <h4 class="text-xl font-medium text-black">Lies!</h4>
+                <p class="text-base text-center text-gray-700">Lies die Bibel so wie <b>du</b> möchtest: Lightmode, Darkmode, Comic Sans - alles ist dir überlassen.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-red-200 to-orange-200">
@@ -35,8 +35,8 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
                     </svg>
                 </div>
-                <h4 class="text-xl font-medium text-gray-700" id="">Merke!</h4>
-                <p class="text-base text-center text-gray-500" id="">Merke dir Verse, damit du nie wieder Gottes Botschaft an dich vergisst.</p>
+                <h4 class="text-xl font-medium text-black" id="">Merke!</h4>
+                <p class="text-base text-center text-gray-700" id="">Merke dir Verse, damit du nie wieder Gottes Botschaft an dich vergisst.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-green-200 to-blue-200">
@@ -45,8 +45,8 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
                     </svg>
                 </div>
-                <h4 class="text-xl font-medium text-gray-700" id="">Teile</h4>
-                <p class="text-base text-center text-gray-500" id="">Wir haben es dir einfach gemacht, deine Gedanken mit anderen zu teilen.</p>
+                <h4 class="text-xl font-medium text-black" id="">Teile</h4>
+                <p class="text-base text-center text-gray-700" id="">Wir haben es dir einfach gemacht, deine Gedanken mit anderen zu teilen.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-pink-200 to-purple-200" id="">
@@ -55,8 +55,8 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 </div>
-                <h4 class="text-xl font-medium text-gray-700" id="">Unabhängig</h4>
-                <p class="text-base text-center text-gray-500" id="">
+                <h4 class="text-xl font-medium text-black" id="">Unabhängig</h4>
+                <p class="text-base text-center text-gray-700" id="">
                     my.awesomeBible gehört keiner großen Firma, und finanziert sich komplett von selbst.
                     Wir müssen uns nicht anpassen, wir können auf unsere Community hören.
                     Wir können unsere Vision ausleben.
@@ -69,8 +69,8 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
                 </div>
-                <h4 class="text-xl font-medium text-gray-700" id="">Datenschutz ist uns wichtig.</h4>
-                <p class="text-base text-center text-gray-500">Unsere Server stehen in Deutschland. 
+                <h4 class="text-xl font-medium text-black" id="">Datenschutz ist uns wichtig.</h4>
+                <p class="text-base text-center text-gray-700">Unsere Server stehen in Deutschland. 
                     Wir werden deine Daten nie an irgendeine große Firma verkaufen, und du kannst sie jederzeit exportieren.</p>
             </div>
 
@@ -80,9 +80,9 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                 </div>
-                <h4 class="text-xl font-medium text-gray-700" id="">Quelloffen</h4>
-                <p class="text-base text-center text-gray-500" id="">my.awesomeBible ist komplett Quelloffen. Das bedeutet, dass jeder Sicherheitslücken im Code finden und neue Features hinzufügen kann.</p>
-                <a class="text-base text-center text-gray-500 hover:text-indigo-600" href="https://codeberg.org/awesomebible/my-frontend"> -> Codeberg </a>
+                <h4 class="text-xl font-medium text-black" id="">Quelloffen</h4>
+                <p class="text-base text-center text-gray-700" id="">my.awesomeBible ist komplett Quelloffen. Das bedeutet, dass jeder Sicherheitslücken im Code finden und neue Features hinzufügen kann.</p>
+                <a class="text-base text-center text-gray-700 hover:text-indigo-600" href="https://codeberg.org/awesomebible/my-frontend"> -> Codeberg </a>
             </div>
         </div>
     </div>
