@@ -49,7 +49,7 @@ Was ist deine Lieblingsschriftart?
 
 Egal was es ist: Keine Idee ist zu dumm, kein Wunsch zu wenig.
 
-Schreib uns [per Email](mailto:hi@awesomebible.de), [über dieses Kontaktformular](https://awesomebible.de/kontakt/) oder öffne ein [Codeberg Issue](https://codeberg.org/awesomebible/my-frontend/issues/new).
+Tritt unser [Matrix-Community](https://matrix.to/#/#awesomeBible:stux.chat?via=stux.chat&via=matrix.org) bei, schreib uns [per Email](mailto:hi@awesomebible.de) oder öffne ein [Codeberg Issue](https://codeberg.org/awesomebible/my-frontend/issues/new).
 
 ### Entwicklung 🛠
 #### Setup 🛠
