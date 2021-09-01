@@ -32,7 +32,7 @@ Das Backend von my.awesomeBible - der Teil von dem alle Eingaben in der App vera
 Das Backend ist in PHP geschrieben und nutzt MariaDB als Datenbanksystem.
 
 ### [Bibel API](https://codeberg.org/awesomebible/bible-api)
-In diesem Repository befindet sich die Bibel-API die für my.awesomeBbible verwendet wird.
+In diesem Repository befindet sich die Bibel-API die für my.awesomeBible verwendet wird.
 
 Die Bibel-API stellt vorerst nur die [Menge-Bibel](https://de.wikipedia.org/wiki/Hermann_Menge#Die_Menge-Bibel) zur Verfügung.
 
