@@ -3,6 +3,9 @@ import './tailwind.css'
 import App from './App.vue'
 import { routes } from './routes.js'
 import { createRouter, createWebHistory } from 'vue-router'
+import * as Vue from 'vue'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
 let app = createApp(App)
 
@@ -29,4 +32,5 @@ if (import.meta.hot) {
 }
 
 app.use(router)
+app.use(VueAxios, axios)
 app.mount('#app')

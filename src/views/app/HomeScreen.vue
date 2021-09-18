@@ -30,8 +30,8 @@
 </header>
 <main class="text-center mx-60 gab-5 lg:gap-10">
     <div id="compose-form">
-        <input type="text" class="rounded-md border-gray-300 placeholder-gray-500 text-gray-900 mb-5 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10" placeholder="Titel">
-        <textarea class="resize-none appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" rows="3" placeholder="Enter some long form content."></textarea>
+        <input v-bind="postTitle" type="text" class="rounded-md border-gray-300 placeholder-gray-500 text-gray-900 mb-5 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10" placeholder="Titel">
+        <textarea v-bind="postContent" class="resize-none appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" rows="3" placeholder="Enter some long form content."></textarea>
         <button @click="onPickFile" alt="Anhang hinzufügen" class="inline-flex items-center justify-center px-5 py-3 my-5 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 mr-5">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
@@ -50,10 +50,14 @@
 </main>
 </template>
 <script>
+import { v4 as uuidv4 } from 'uuid';
+
 export default {
     data() {
         return {
             AttatchedFilename: "Noch keine Datei angehängt.",
+            postTitle: null,
+            postContent: null
         }
     },
     methods: {
@@ -72,7 +76,25 @@ export default {
             this.image = files[0]
         },
         onSubmit() {
-            
+            if (this.filename !== null){
+                var temp_uuid = uuidv4()
+
+                this.axios.post('/api/post/file-upload', {
+                filename: this.filename,
+                uuid: this.temp_uuid
+            })
+            }
+            this.axios.post('/api/post/submit', {
+                postTitle: this.postTitle,
+                postContent: this.postContent,
+                attatchment: this.temp_uuid
+            })
+        .then(function (response) {
+                console.log(response);
+            })
+        .catch(function (error) {
+                console.log(error);
+            });
         }
     }
 }
