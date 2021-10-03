@@ -1,6 +1,6 @@
 pipeline:
   steps:
-  - name: Frontend Deploy
+  - name: "Frontend deploy"
       image: node
       commands:
           - npm install
