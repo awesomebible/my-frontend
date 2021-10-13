@@ -29,7 +29,7 @@ Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Front
 ### [Backend](https://codeberg.org/awesomebible/my-backend)
 Das Backend von my.awesomeBible - der Teil von dem alle Eingaben in der App verarbeitet und speichert.
 
-Das Backend ist in PHP geschrieben und nutzt MariaDB als Datenbanksystem.
+Das Backend ist in Javascript geschrieben und nutzt MongoDB als Datenbanksystem.
 
 ### [Bibel API](https://codeberg.org/awesomebible/bible-api)
 In diesem Repository befindet sich die Bibel-API die für my.awesomeBible verwendet wird.
@@ -49,7 +49,7 @@ Was ist deine Lieblingsschriftart?
 
 Egal was es ist: Keine Idee ist zu dumm, kein Wunsch zu wenig.
 
-Tritt unser [Matrix-Community](https://matrix.to/#/#awesomeBible:stux.chat?via=stux.chat&via=matrix.org) bei, schreib uns [per Email](mailto:hi@awesomebible.de) oder öffne ein [Codeberg Issue](https://codeberg.org/awesomebible/my-frontend/issues/new).
+Tritt unser [Matrix-Community](https://matrix.to/#/#awesomeBible:matrix.org) bei, schreib uns [per Email](mailto:hi@awesomebible.de) oder öffne ein [Codeberg Issue](https://codeberg.org/awesomebible/my-frontend/issues/new).
 
 ### Entwicklung 🛠
 #### Setup 🛠
@@ -67,7 +67,7 @@ npm run dev # Startet den Dev-Server
 npm run build # Baut einen Build
 npm run serve # Startet den Build mit einem lokalen Server
 ```
-Wenn du [yarn](https://yarnpkg.com/getting-started/install) benutzt:
+Wenn du [yarn](https://yarnpkg.com/) benutzt:
 ```sh
 yarn # Installiert Abhängigkeiten
 yarn dev # Startet den Dev-Server
@@ -79,3 +79,7 @@ yarn serve # Startet den Build mit einem lokalen Server
 Programmieren ist nicht dein Ding? Du designst, zeichnest oder entwirfst lieber?
 Auch dann kannst du uns helfen!
 Oft wird für ein Feature ein Mockup oder ein Design benötigt, alle Issues wo ein Design benötigt wird, sind [hier](https://codeberg.org/awesomebible/my-frontend/issues?q=&type=all&state=open&labels=16018&milestone=0&assignee=0) zu finden.
+
+### Sicherheitslücken 🔓
+
+Wenn du auf eine Sicherheitslücke gestoßen bist, melde sie bitte nicht direkt in den Issues - stattdessen schreib uns bitte eine [E-Mail](mailto:hi@awesomebible.de) an [hi@awesomebible.de](mailto:hi@awesomebible.de) oder eine Nachricht an unseren [Matrix-Account](https://matrix.to/#/@awesomebible:matrix.org).
