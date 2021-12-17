@@ -82,7 +82,7 @@
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Quelloffen</h4>
                 <p class="text-base text-center text-gray-700" id="">my.awesomeBible ist komplett Quelloffen. Das bedeutet, dass jeder Sicherheitslücken im Code finden und neue Features hinzufügen kann.</p>
-                <a class="text-base text-center text-gray-700 hover:text-indigo-600" href="https://codeberg.org/awesomebible/my-frontend"> -> Codeberg </a>
+                <a class="text-base text-center text-gray-700 hover:text-blue-600 underline decoration-blue-500 decoration-2 hover:decoration-wavy" href="https://codeberg.org/awesomebible/my-frontend"> -> Codeberg </a>
             </div>
         </div>
     </div>
@@ -98,7 +98,7 @@
             class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Wo liegen meine Daten?</h3>
             <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Deine Daten liegen in Deutschland, das ist uns wichtig, weil Deutschland starke Datenschutz-Gesetze hat.
-                Um noch ein Stück genauer zu werden: Deine Daten liegen auf einem Server von der <a href="https://manitu.de" class="hover:text-indigo-600">manitu GmbH</a> in <a href="https://www.openstreetmap.org/node/6538846006" class="hover:text-indigo-600">St. Wedel</a>.
+                Um noch ein Stück genauer zu werden: Deine Daten liegen auf einem Server von der <a href="https://manitu.de" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">manitu GmbH</a> in <a href="https://www.openstreetmap.org/node/6538846006" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">St. Wedel</a>.
             </p>
         </div>
         <div
@@ -117,14 +117,14 @@
             class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Wer steht hinter my.awesomeBible und awesomeBible?</h3>
             <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Hi. 👋 Ich bin Benjamin Hartmann!
-                Meine Hobbys sind <a href="https://awesomebible.de" class="hover:text-indigo-600">Texte schreiben</a>, <a href="https://codeberg.org/awesomebible" class="hover:text-indigo-600">programmieren</a> und in der Natur rumlungern. 
-                Ich bin 15 Jahre alt. Ich habe my.awesomeBible gebaut, weil ich keine Bibelapp gefunden habe, die die Features hat, die ich brauche - und jetzt bin ich hier. Der Weg mit Gott ist ein richtiges Abenteuer - und ich möchte, dass auch andere davon erfahren.</p>
+                Meine Hobbys sind <a href="https://awesomebible.de" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Texte schreiben</a>, <a href="https://codeberg.org/awesomebible" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">programmieren</a> und in der Natur rumlungern. 
+                Ich habe my.awesomeBible gebaut, weil ich keine Bibelapp gefunden habe, die die Features hat, die ich brauche - und jetzt bin ich hier. Der Weg mit Gott ist ein richtiges Abenteuer - und ich möchte, dass auch andere davon erfahren.</p>
         </div>
         <div id="contact"
         class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
         <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Noch mehr Fragen?</h3>
         <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Schreib uns! Wir sind per E-Mail erreichbar: 
-            <a href="mailto:hi@awesomebible.de" class="hover:text-indigo-600">hi@awesomebible.de</a> oder via <a href="https://codeberg.org/awesomebible/my" class="hover:text-indigo-600">Codeberg Issues</a>. 
+            <a href="mailto:hi@awesomebible.de" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">hi@awesomebible.de</a> oder via <a href="https://codeberg.org/awesomebible/my" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Codeberg Issues</a>. 
             Wir antworten dir gerne! 😀
             </p>
     </div>
