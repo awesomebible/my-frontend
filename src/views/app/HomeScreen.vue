@@ -30,18 +30,25 @@
 </header>
 <main class="text-center mx-60 gab-5 lg:gap-10">
     <div id="compose-form">
-        <input v-model="postTitle" type="text" class="rounded-md border-gray-300 placeholder-gray-500 text-gray-900 mb-5 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10" placeholder="Titel">
-        <textarea v-model="postContent" class="resize-none appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" rows="3" placeholder="Enter some long form content."></textarea>
-        <button @click="onPickFile" alt="Anhang hinzufügen" class="inline-flex items-center justify-center px-5 py-3 my-5 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 mr-5">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
-            </svg> {{ AttatchedFilename }}
-        </button>
-        <input id="fileUpload" type="file" ref="fileInput" accept="image/*" @change="onFilePicked" hidden>
-        <button @click="onSubmit" class="inline-flex items-center justify-center px-5 py-3 my-5 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 mr-5">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-            </svg> Post senden
+        <h2 class="font-bold text-2xl">Verfasse einen Post</h2>
+        <textarea v-model="postContent" class="inline-flex items-center justify-center resize-none appearance-none relative px-3 py-2 mt-4 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" rows="3" placeholder="Was gibt's neues?"></textarea>
+        <br>
+        <div class="inline-flex items-center justify-center px-5 py-5 my-5 mr-5">
+            <label class="block">
+            <span class="sr-only">Lade Bilder hoch</span>
+            <input type="file" class="block w-full text-sm text-gray-500
+                file:mr-4 file:py-2 file:px-4
+                file:rounded-md file:border-0
+                file:text-sm file:font-semibold
+                file:bg-indigo-600 file:text-white
+                hover:file:bg-indigo-700
+            "/>
+            </label>
+        </div>
+        <button @click="onSubmit" class="inline-flex items-center justify-center text-white
+                mr-4 mt-4 py-2 px-4 rounded-md file:border-0 text-sm font-semibold bg-indigo-600 hover:bg-indigo-700
+            ">
+            Post senden
         </button>
     </div>
     <div id="feed" class="">
