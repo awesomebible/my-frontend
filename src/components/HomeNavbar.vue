@@ -1,6 +1,6 @@
 <template>
             <nav class="relative z-50 h-24">
-            <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto font-medium border-b border-gray-200 lg:justify-center sm:px-4 md:px-2">
+            <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto font-medium border-b border-gray-200 dark:border-gray-700 lg:justify-center sm:px-4 md:px-2">
                 <router-link to="/" class="w-1/4 py-4 pr-4 md:py-0">
                     <span class="text-xl font-black leading-none text-gray-900 dark:text-gray-100 select-none logo">my.awesomeBible<span class="text-indigo-600">.</span></span>
                 </router-link>
