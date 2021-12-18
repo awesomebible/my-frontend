@@ -1,9 +1,9 @@
 <template>
-<div class="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+<div class="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-slate-800 py-12 px-4 sm:px-6 lg:px-8">
   <div class="max-w-md w-full space-y-8">
     <div>
       <img class="mx-auto h-12 w-auto" src="/images/login.svg" alt="Schlüssel">
-      <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
+      <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900 dark:text-gray-300">
         Melde dich an
       </h2>
     </div>
@@ -27,7 +27,7 @@
       <div class="flex items-center justify-between">
         <div class="flex items-center">
           <input id="remember_me" name="remember_me" type="checkbox" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
-          <label for="remember_me" class="ml-2 block text-sm text-gray-900">
+          <label for="remember_me" class="ml-2 block text-sm text-gray-900 dark:text-white">
             Merk dich mir
           </label>
         </div>
