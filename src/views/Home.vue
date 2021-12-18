@@ -192,8 +192,8 @@
             </div>
         <form class="w-full mt-16 md:mt-0 md:w-2/5">
             <div>
-                <div class="relative z-10 h-auto p-8 py-10 overflow-hidden bg-white dark:bg-blue-900 border-b-2 border-gray-300 dark:border-gray-800 rounded-lg shadow-2xl px-7" id="">
-                    <h3 class="mb-6 text-2xl font-medium text-center dark:text-purple-200" id="">Öffne das Buch...</h3>
+                <div class="relative z-10 h-auto p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7" id="">
+                    <h3 class="mb-6 text-2xl font-medium text-center" id="">Öffne das Buch...</h3>
                     <div class="block mb-4 border border-gray-200 rounded-lg">
                         <input disabled type="text" name="email" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="E-Mail Adresse">
                     </div>
@@ -201,7 +201,7 @@
                         <input disabled type="password" name="password" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Passwort">
                     </div>
                     <div class="block">
-                        <button disabled class="w-full px-3 py-4 font-medium text-white dark:text-purple-200 bg-blue-600 dark:bg-blue-900 rounded-lg">Wir nehmen im Moment leider noch keine Registrierungen an.</button>
+                        <button disabled class="w-full px-3 py-4 font-medium text-white bg-blue-600 rounded-lg">Wir nehmen im Moment leider noch keine Registrierungen an.</button>
                     </div>
                 </div>
             </div>
