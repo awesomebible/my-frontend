@@ -18,7 +18,7 @@
                 </a>
             </div>
         </nav>
-        <p class="mt-8 text-base leading-6 text-center text-black-400">© 2021 awesomeBible</p>
+        <p class="mt-8 text-base leading-6 text-center text-blue-800">© 2021 awesomeBible</p>
     </div>
 </footer>
 </template>

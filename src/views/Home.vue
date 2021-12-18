@@ -58,7 +58,7 @@
                 <h4 class="text-xl font-medium text-black" id="">Unabhängig</h4>
                 <p class="text-base text-center text-gray-700" id="">
                     my.awesomeBible gehört keiner großen Firma, und finanziert sich komplett von selbst.
-                    Wir müssen uns nicht anpassen, wir können auf unsere Community hören.
+                    Wir müssen uns nicht anpassen, wir können auf unsere <a href="https://matrix.to/#/#awesomebible:matrix.org" class="text-base text-center text-gray-700 hover:text-blue-600 underline decoration-blue-500 decoration-2 hover:decoration-wavy">Community</a> hören.
                     Wir können unsere Vision ausleben.
                 </p>
             </div>
@@ -71,7 +71,7 @@
                 </div>
                 <h4 class="text-xl font-medium text-black" id="">Datenschutz ist uns wichtig.</h4>
                 <p class="text-base text-center text-gray-700">Unsere Server stehen in Deutschland. 
-                    Wir werden deine Daten nie an irgendeine große Firma verkaufen, und du kannst sie jederzeit exportieren.</p>
+                    Wir werden deine Daten nie an irgendeine Firma verkaufen, und du kannst sie jederzeit exportieren.</p>
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl bg-gradient-to-br from-yellow-200 to-yellow-500">
@@ -105,7 +105,7 @@
             class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Wie finanziert ihr euch?</h3>
             <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Wir finanzieren uns aktuell ausschließlich aus eigenem Geld, diese Entscheidung haben wir getroffen, weil wir eine <span class="font-bold">wirklich</span> kostenlose und offene Bibelapp bauen wollen. <br>
-            Mehr über Geld, und wie es weiter geht findest du <a class="hover:text-indigo-600" href="https://awesomebible.codeberg.page/post/vision/">hier</a>. </p>
+            Mehr über Geld, und wie es weiter geht findest du <a class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy" href="https://awesomebible.codeberg.page/post/vision/">hier</a>. </p>
         </div>
         <div
             class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
@@ -124,7 +124,7 @@
         class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
         <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Noch mehr Fragen?</h3>
         <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Schreib uns! Wir sind per E-Mail erreichbar: 
-            <a href="mailto:hi@awesomebible.de" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">hi@awesomebible.de</a> oder via <a href="https://codeberg.org/awesomebible/my" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Codeberg Issues</a>. 
+            <a href="mailto:hi@awesomebible.de" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">hi@awesomebible.de</a> oder tritt unserem <a href="https://matrix.to/#/#awesomebible:matrix.org" class="hover:text-violet-600 underline decoration-violet-500 decoration-2 hover:decoration-wavy">Matrix Space</a> bei. 
             Wir antworten dir gerne! 😀
             </p>
     </div>
@@ -195,10 +195,10 @@
                 <div class="relative z-10 h-auto p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7" id="">
                     <h3 class="mb-6 text-2xl font-medium text-center" id="">Öffne das Buch...</h3>
                     <div class="block mb-4 border border-gray-200 rounded-lg">
-                        <input disabled type="text" name="email" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Email address">
+                        <input disabled type="text" name="email" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="E-Mail Adresse">
                     </div>
                     <div class="block mb-4 border border-gray-200 rounded-lg">
-                        <input disabled type="password" name="password" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Password">
+                        <input disabled type="password" name="password" id="" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Passwort">
                     </div>
                     <div class="block">
                         <button disabled class="w-full px-3 py-4 font-medium text-white bg-blue-600 rounded-lg">Wir nehmen im Moment leider noch keine Registrierungen an.</button>
