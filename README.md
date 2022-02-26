@@ -29,7 +29,7 @@ Das [my.awesomeBible](https://vuetelescope.com/explore/my-awesomebible-de) Front
 ### [Backend](https://codeberg.org/awesomebible/my-backend)
 Das Backend von my.awesomeBible - der Teil von dem alle Eingaben in der App verarbeitet und speichert.
 
-Das Backend ist in Javascript geschrieben und nutzt MongoDB als Datenbanksystem.
+Das Backend ist in Javascript geschrieben und nutzt MariaDB (MySQL) als Datenbanksystem.
 
 ### [Bibel API](https://codeberg.org/awesomebible/bible-api)
 In diesem Repository befindet sich die Bibel-API die für my.awesomeBible verwendet wird.
@@ -82,4 +82,4 @@ Oft wird für ein Feature ein Mockup oder ein Design benötigt, alle Issues wo e
 
 ### Sicherheitslücken 🔓
 
-Wenn du auf eine Sicherheitslücke gestoßen bist, melde sie bitte nicht direkt in den Issues - stattdessen schreib uns bitte eine [E-Mail](mailto:hi@awesomebible.de) an [hi@awesomebible.de](mailto:hi@awesomebible.de) oder eine Nachricht an unseren [Matrix-Account](https://matrix.to/#/@awesomebible:matrix.org).
+Wenn du auf eine Sicherheitslücke gestoßen bist, melde sie bitte nicht direkt in den Issues - stattdessen schreib uns bitte eine [E-Mail](mailto:hi@awesomebible.de) an [hi@awesomebible.de](mailto:hi@awesomebible.de) oder eine Nachricht an meinen [Matrix-Account](https://matrix.to/#/@hbenjamin:kde.org).
