@@ -1,4 +1,5 @@
-# my.awesomeBible
+# my.awesomeBible 
+[![](https://img.shields.io/matrix/my.awesomebible:matrix.org?color=blueviolet&logo=matrix)](https://matrix.to/#/#my.awesomebible:matrix.org)
 ## Mit my.awesomeBible beginnt eine neue Generation der Bibelarbeit. *Deine* neue Generation der Bibelarbeit.
 my.awesomeBible ist unser neuer Ansatz für Bibel-Apps.
 Wir setzen auf Kommunikation und Bibelarbeit als Zusammenarbeit in Echtzeit.
