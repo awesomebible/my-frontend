@@ -17,7 +17,7 @@ Wir werben mit *einer neuen Generation der Bibelarbeit*:
 
 > Mit my.awesomeBible beginnt eine neue Generation der Bibelarbeit. *Deine* neue Generation der Bibelarbeit.
 
-Was es damit auf sich hat, findest du hier: https://awesomebible.codeberg.page/post/eine-neue-generation/
+Was es damit auf sich hat, findest du hier: https://changelog.awesomebible.de/p/über-unsere-vision-unsere-pläne-und-warum-wir-hier-sind/
 
 
 ## Projektstruktur 🍃
