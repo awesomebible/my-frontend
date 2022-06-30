@@ -1,4 +1,7 @@
-# my.awesomeBible 
+# my.awesomeBible: Dieses Repository ist zur neuen Laravel-Codebase [awesomeBible/my.awesomeBible](https://codeberg.org/awesomeBible/my.awesomeBible) umgezogen.
+## ``awesomeBible/my-frontend`` ist nicht mehr in Gebrauch und archiviert.
+
+
 [![](https://img.shields.io/matrix/my.awesomebible:matrix.org?color=blueviolet&logo=matrix)](https://matrix.to/#/#my.awesomebible:matrix.org)
 ## Mit my.awesomeBible beginnt eine neue Generation der Bibelarbeit. *Deine* neue Generation der Bibelarbeit.
 my.awesomeBible ist unser neuer Ansatz für Bibel-Apps.
